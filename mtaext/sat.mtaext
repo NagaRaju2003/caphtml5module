@@ -1,5 +1,5 @@
 _schema-version: "3.2"
-ID: nshtml5module-qa
+ID: nshtml5module-sat
 
 extends: nshtml5module
 
@@ -7,17 +7,17 @@ resources:
 
   - name: nshtml5module-destination-service
     parameters:
-      service-name: nshtml5module-destination-service-qa
+      service-name: nshtml5module-destination-service-sat
 
   - name: nshtml5module-uaa
     parameters:
-      service-name: nshtml5module-xsuaa-service-qa
+      service-name: nshtml5module-xsuaa-service-sat
       config:
-        xsappname: nshtml5module-qa
+        xsappname: nshtml5module-sat
 
   - name: nshtml5module-repo-host
     parameters:
-      service-name: nshtml5module-html5-service-qa
+      service-name: nshtml5module-html5-service-sat
 
 modules:
   - name: nshtml5module-destination-content
@@ -25,10 +25,11 @@ modules:
       content:
         instance:
           destinations:
+
             - Name: nshtml5module_html_repo_host
-              ServiceInstanceName: nshtml5module-html5-service-qa
+              ServiceInstanceName: nshtml5module-html5-service-sat
               ServiceKeyName: nshtml5module-repo-host-key
 
             - Name: nshtml5module_uaa
-              ServiceInstanceName: nshtml5module-xsuaa-service-qa
+              ServiceInstanceName: nshtml5module-xsuaa-service-sat
               ServiceKeyName: nshtml5module-uaa-key
