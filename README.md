@@ -18,7 +18,7 @@
 
 ## html5module
 
-An HTML5Module SAP Fiori application.
+An HTML5Module SAP Fiori application. sampling 
 
 ### Starting the generated app
 
