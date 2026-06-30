@@ -18,7 +18,7 @@
 
 ## html5module
 
-An HTML5Module SAP Fiori application. sampling change from the feature/us_notification branch 
+An HTML5Module SAP Fiori application. sampling change from the feature/us_notification branch email notification branch has been created 
 
 ### Starting the generated app
 
