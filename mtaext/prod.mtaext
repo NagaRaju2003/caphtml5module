@@ -31,4 +31,4 @@ modules:
 
             - Name: nshtml5module_uaa
               ServiceInstanceName: nshtml5module-xsuaa-service-prod
-              ServiceKeyName: nshtml5module-uaa-key
+              ServiceKeyName: nshtml5module-uaa-key a
