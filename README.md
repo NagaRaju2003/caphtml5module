@@ -18,7 +18,7 @@
 
 ## html5module
 
-An HTML5Module SAP Fiori application.
+An HTML5Module SAP Fiori application. sampling change from the feature/us_notification branch required one more Committ to test
 
 ### Starting the generated app
 
@@ -26,7 +26,7 @@ An HTML5Module SAP Fiori application.
 
 ```
     npm start
-```
+``m, .l`
 
 #### Pre-requisites:
 
