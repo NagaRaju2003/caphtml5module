@@ -26,7 +26,7 @@ An HTML5Module SAP Fiori application. sampling change from the feature/us_notifi
 
 ```
     npm start
-```
+``m, .l`
 
 #### Pre-requisites:
 
